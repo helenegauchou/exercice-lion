@@ -1,6 +1,6 @@
 ## Lion exercises
 
-This is my personal work getting to learn HTML/CSS/JS
+This is my personal work getting to learn `HTML/CSS/JS`
 
 ## TODO LIST
 
