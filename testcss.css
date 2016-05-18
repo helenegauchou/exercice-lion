@@ -1,5 +1,4 @@
-header
-{
+header {
 	background-image: url("Material-Design-Landscape-1024.jpg");
 	background-size: cover;
 	color: white;
@@ -11,8 +10,8 @@ header
 	top: 0px;
 	right: 0px;
 }
-footer
-{
+
+footer {
 	background-color: #5C66FF;
 	color: white;
 	font-size: 3em;
@@ -24,8 +23,7 @@ footer
 	padding: 10px 10px;
 }
 
-nav
-{
+nav {
 	background-color: #F9A825;
 	display: inline-block;
 	padding-top: 150px;
@@ -35,15 +33,14 @@ nav
 	left: 0px;
 	vertical-align: top;
 }
-section
-{
+
+section {
 	padding-top: 150px;
 	width: 90%;
 	display: inline-block;
 	vertical-align: top;
 }
 
-#box
-{
+#box {
 	display: flex;
 }
