@@ -4,41 +4,63 @@ header {
 	color: white;
 	font-size: 3em;
 	text-align: right;
+
 	padding: 50px 10px;
 	position: fixed;
 	left: 0px;
 	top: 0px;
 	right: 0px;
+	z-index: 3;
+	box-shadow: 5px 5px 5px gray;
 }
 
 footer {
-	background-color: #5C66FF;
+	background-color: #0288D1;
 	color: white;
 	font-size: 3em;
 	text-align: right;
+	box-shadow: 5px -5px 5px gray;
+	
 	position: fixed;
 	left: 0px;
 	right: 0px;
 	bottom: 0px;
 	padding: 10px 10px;
+	z-index: 2;
+	width: auto;
 }
 
 nav {
 	background-color: #F9A825;
-	display: inline-block;
-	padding-top: 150px;
-	width: 5%;
+	color: black;
+	font-size: 2vw;
+
+	padding-top: 160px;
+	/*padding-left: 5px;*/
+	width: 10%;
 	height: 100%;
 	position: fixed;
 	left: 0px;
+	top: 0px;
 	vertical-align: top;
+	z-index: 1;
+	box-shadow: 5px 5px 5px gray;
+	text-overflow: ellipsis;
+}
+
+ul{
+	list-style-type: none;
+}
+li{
+	margin-top: 10px;
 }
 
 section {
 	padding-top: 150px;
-	width: 90%;
-	display: inline-block;
-	vertical-align: top;
+	padding-right: 5%;
+	padding-left: 15%;
+	text-align: justify;
+
 }
 
 #box {
