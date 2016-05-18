@@ -1,0 +1,49 @@
+header
+{
+	background-image: url("Material-Design-Landscape-1024.jpg");
+	background-size: cover;
+	color: white;
+	font-size: 3em;
+	text-align: right;
+	padding: 50px 10px;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+}
+footer
+{
+	background-color: #5C66FF;
+	color: white;
+	font-size: 3em;
+	text-align: right;
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	padding: 10px 10px;
+}
+
+nav
+{
+	background-color: #F9A825;
+	display: inline-block;
+	padding-top: 150px;
+	width: 5%;
+	height: 100%;
+	position: fixed;
+	left: 0px;
+	vertical-align: top;
+}
+section
+{
+	padding-top: 150px;
+	width: 90%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#box
+{
+	display: flex;
+}
