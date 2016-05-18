@@ -1,0 +1,2 @@
+- [] Add media-queries break points for differents screen sizes
+- [] Use better fonts
