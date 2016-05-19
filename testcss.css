@@ -35,7 +35,7 @@ nav {
 	color: black;
 	font-size: 1.6em;
 
-	padding-top: 160px;
+	padding-top: 190px;
 	width: 128px;
 	height: 100%;
 	position: fixed;
@@ -47,21 +47,30 @@ nav {
 	text-overflow: ellipsis;
 }
 
-ul{
-	list-style-type: none;
+nav p{
+	text-align: center;
+	margin: 0px;
+	padding: 10px 0 10px 0;
+
 }
-li{
-	margin-top: 10px;
+nav p:hover{
+	background-color: #66BB6A;
 }
 
 section {
 	padding-top: 150px;
 	padding-right: 5%;
-	padding-left: 150px;
+	padding-left: 180px;
 	text-align: justify;
+
 
 }
 
 #box {
 	display: flex;
 }
+
+*{
+	font-family: 'Gentium Book Basic', serif;
+}
+
